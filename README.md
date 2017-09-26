@@ -1,2 +1,1 @@
-# cookbookapp
-Simple cookbook application
+Simple online cookbook application
