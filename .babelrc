@@ -1,0 +1,12 @@
+{
+  "presets": ["es2015", "react", "stage-2"],
+  "plugins": [
+    ["resolver", {"resolveDirs": ["src", "src/public"]}],
+    "transform-react-jsx"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}
