@@ -1,0 +1,66 @@
+FORMAT: 1A
+HOST: http://polls.apiblueprint.org/
+
+# cookbookAPI
+
+Cookbook is a simple API allowing consumers to perform different operations with
+recipes (create, delete, read, write).
+
+## Questions Collection [/recipes]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+    [
+        {
+            "id": 1, 
+            "title" : "Hamburger",
+            "desc" : "Preparation-time:30min,Difficulty:3/5",
+            "ingredients" : ["one", "two", "three", "four", "five"],
+            "procedure": ["step-one", "step-two", "step-three", "step-four", "step-five"],
+            "avatarURL": "",
+            "likes" : 1,
+            "dislikes" : 1
+        },
+        {
+            "id": 2, 
+            "title" : "Lasagne",
+            "desc" : "Preparation-time:60min,Difficulty:5/5",
+            "ingredients" : ["one", "two", "three", "four", "five"],
+            "procedure": ["step_one", "step_two", "step_three", "step_four", "step_five"],
+            "avatarURL": "",
+            "likes" : 2,
+            "dislikes" : 2
+        },
+        {
+            "id": 3, 
+            "title" : "Cheesecake",
+            "desc" : "Preparation-time:50min,Difficulty:4/5",
+            "ingredients" : ["one", "two", "three", "four", "five"],
+            "procedure": ["step-one", "step-two", "step-three", "step-four", "step-five"],
+            "avatarURL": "",
+            "likes" : 3,
+            "dislikes" : 3
+        },
+        {
+            "id": 4, 
+            "title" : "Spaghetti",
+            "desc" : "Preparation-time:30min,Difficulty:3/5",
+            "ingredients" : ["one", "two", "three", "four", "five"],
+            "procedure": ["step-one", "step-two", "step-three", "step-four", "step-five"],
+            "avatarURL": "",
+            "likes" : 4,
+            "dislikes" : 4
+        },
+        {
+            "id": 5, 
+            "title" : "Tomato soup",
+            "desc" : "Preparation-time:20min,Difficulty:2/5",
+            "ingredients" : ["one", "two", "three", "four", "five"],
+            "procedure": ["step-one", "step-two", "step-three", "step-four", "step-five"],
+            "avatarURL": "",
+            "likes" : 5,
+            "dislikes" : 5
+        }
+    ]
